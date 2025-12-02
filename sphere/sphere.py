@@ -34,6 +34,7 @@ class Sphere(object):
     def dump(self, filename):
         # *** STEP 6 ***
         # uncomment the following 2 lines
+        # test
         with open(filename, "w") as f:
             pickle.dump(self, f)
         pass
